@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD535AB324A7C70F00F773E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD535AB224A7C70F00F773E6 /* AppDelegate.swift */; };
+		FD535AB524A7C70F00F773E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD535AB424A7C70F00F773E6 /* SceneDelegate.swift */; };
+		FD535AB724A7C70F00F773E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD535AB624A7C70F00F773E6 /* ContentView.swift */; };
+		FD535ABC24A7C71000F773E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD535ABB24A7C71000F773E6 /* Preview Assets.xcassets */; };
+		FD535ABF24A7C71000F773E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD535ABD24A7C71000F773E6 /* LaunchScreen.storyboard */; };
+		FD535AC724A7F85200F773E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD535AC624A7F85200F773E6 /* Assets.xcassets */; };
+		FD535AC924A7FD3A00F773E6 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD535AC824A7FD3A00F773E6 /* SwiftUIView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD535AAF24A7C70F00F773E6 /* Vettri Vaanoli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vettri Vaanoli.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD535AB224A7C70F00F773E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD535AB424A7C70F00F773E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FD535AB624A7C70F00F773E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FD535ABB24A7C71000F773E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD535ABE24A7C71000F773E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD535AC024A7C71000F773E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD535AC624A7F85200F773E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		FD535AC824A7FD3A00F773E6 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		FD7FA8CA24AB60170039B634 /* Vettri Vaanoli.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Vettri Vaanoli.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD535AAC24A7C70F00F773E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD535AA624A7C70F00F773E6 = {
+			isa = PBXGroup;
+			children = (
+				FD535AB124A7C70F00F773E6 /* Vettri Vaanoli */,
+				FD535AB024A7C70F00F773E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD535AB024A7C70F00F773E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD535AAF24A7C70F00F773E6 /* Vettri Vaanoli.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD535AB124A7C70F00F773E6 /* Vettri Vaanoli */ = {
+			isa = PBXGroup;
+			children = (
+				FD7FA8CA24AB60170039B634 /* Vettri Vaanoli.entitlements */,
+				FD535AB224A7C70F00F773E6 /* AppDelegate.swift */,
+				FD535AB424A7C70F00F773E6 /* SceneDelegate.swift */,
+				FD535AB624A7C70F00F773E6 /* ContentView.swift */,
+				FD535AC824A7FD3A00F773E6 /* SwiftUIView.swift */,
+				FD535ABD24A7C71000F773E6 /* LaunchScreen.storyboard */,
+				FD535AC024A7C71000F773E6 /* Info.plist */,
+				FD535AC624A7F85200F773E6 /* Assets.xcassets */,
+				FD535ABA24A7C71000F773E6 /* Preview Content */,
+			);
+			path = "Vettri Vaanoli";
+			sourceTree = "<group>";
+		};
+		FD535ABA24A7C71000F773E6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FD535ABB24A7C71000F773E6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD535AAE24A7C70F00F773E6 /* Vettri Vaanoli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD535AC324A7C71000F773E6 /* Build configuration list for PBXNativeTarget "Vettri Vaanoli" */;
+			buildPhases = (
+				FD535AAB24A7C70F00F773E6 /* Sources */,
+				FD535AAC24A7C70F00F773E6 /* Frameworks */,
+				FD535AAD24A7C70F00F773E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vettri Vaanoli";
+			productName = "Vettri Vaanoli";
+			productReference = FD535AAF24A7C70F00F773E6 /* Vettri Vaanoli.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD535AA724A7C70F00F773E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Grager D'souza";
+				TargetAttributes = {
+					FD535AAE24A7C70F00F773E6 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = FD535AAA24A7C70F00F773E6 /* Build configuration list for PBXProject "Vettri Vaanoli" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD535AA624A7C70F00F773E6;
+			productRefGroup = FD535AB024A7C70F00F773E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD535AAE24A7C70F00F773E6 /* Vettri Vaanoli */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD535AAD24A7C70F00F773E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD535ABF24A7C71000F773E6 /* LaunchScreen.storyboard in Resources */,
+				FD535AC724A7F85200F773E6 /* Assets.xcassets in Resources */,
+				FD535ABC24A7C71000F773E6 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD535AAB24A7C70F00F773E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD535AB324A7C70F00F773E6 /* AppDelegate.swift in Sources */,
+				FD535AB524A7C70F00F773E6 /* SceneDelegate.swift in Sources */,
+				FD535AC924A7FD3A00F773E6 /* SwiftUIView.swift in Sources */,
+				FD535AB724A7C70F00F773E6 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD535ABD24A7C71000F773E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD535ABE24A7C71000F773E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD535AC124A7C71000F773E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD535AC224A7C71000F773E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD535AC424A7C71000F773E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Vettri Vaanoli/Vettri Vaanoli.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Vettri Vaanoli/Preview Content\"";
+				DEVELOPMENT_TEAM = V4R7A8794P;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Vettri Vaanoli/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techi.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD535AC524A7C71000F773E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Vettri Vaanoli/Vettri Vaanoli.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Vettri Vaanoli/Preview Content\"";
+				DEVELOPMENT_TEAM = V4R7A8794P;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Vettri Vaanoli/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techi.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD535AAA24A7C70F00F773E6 /* Build configuration list for PBXProject "Vettri Vaanoli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD535AC124A7C71000F773E6 /* Debug */,
+				FD535AC224A7C71000F773E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD535AC324A7C71000F773E6 /* Build configuration list for PBXNativeTarget "Vettri Vaanoli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD535AC424A7C71000F773E6 /* Debug */,
+				FD535AC524A7C71000F773E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD535AA724A7C70F00F773E6 /* Project object */;
+}
