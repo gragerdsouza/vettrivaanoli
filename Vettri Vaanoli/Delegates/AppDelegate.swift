@@ -14,6 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
         //splash screen delay fro few seconds
         Thread.sleep(forTimeInterval: 3.0)
         
@@ -75,16 +76,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         
       //send tokens to backend server
     }
-//     func application(_ application: UIApplication,
-//                     didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
-//        let tokenParts = deviceToken.map { data -> String in
-//            return String(format: "%02.2hhx", data)
-//        }
-//
-//        let token = tokenParts.joined()
-//        print("Device Token: \(token)")
-//    }
-
+    
     func application(
       _ application: UIApplication,
       didFailToRegisterForRemoteNotificationsWithError error: Error) {
@@ -96,8 +88,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         //Your code to handle events
         //print(notification.request.content.userInfo)
         print("Handle push from foreground")
-           // custom code to handle push while app is in the foreground
-           print("\(notification.request.content.userInfo)")
+        // custom code to handle push while app is in the foreground
+        print("\(notification.request.content.userInfo)")
         completionHandler([.alert, .badge, .sound])
     }
     

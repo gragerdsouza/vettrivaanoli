@@ -59,11 +59,8 @@
 		FD535AB124A7C70F00F773E6 /* Vettri Vaanoli */ = {
 			isa = PBXGroup;
 			children = (
+				FDAA5F6424ACFF6400A8CDCE /* Delegates */,
 				FD7FA8CA24AB60170039B634 /* Vettri Vaanoli.entitlements */,
-				FD535AB224A7C70F00F773E6 /* AppDelegate.swift */,
-				FD535AB424A7C70F00F773E6 /* SceneDelegate.swift */,
-				FD535AB624A7C70F00F773E6 /* ContentView.swift */,
-				FD535AC824A7FD3A00F773E6 /* SwiftUIView.swift */,
 				FD535ABD24A7C71000F773E6 /* LaunchScreen.storyboard */,
 				FD535AC024A7C71000F773E6 /* Info.plist */,
 				FD535AC624A7F85200F773E6 /* Assets.xcassets */,
@@ -78,6 +75,25 @@
 				FD535ABB24A7C71000F773E6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDAA5F6424ACFF6400A8CDCE /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				FD535AB224A7C70F00F773E6 /* AppDelegate.swift */,
+				FD535AB424A7C70F00F773E6 /* SceneDelegate.swift */,
+				FDAA5F6524ACFF9400A8CDCE /* Views */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		FDAA5F6524ACFF9400A8CDCE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD535AB624A7C70F00F773E6 /* ContentView.swift */,
+				FD535AC824A7FD3A00F773E6 /* SwiftUIView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
