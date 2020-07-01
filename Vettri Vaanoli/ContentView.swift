@@ -12,19 +12,16 @@ import AVKit
 
 struct ContentView: View {
     var body: some View {
-            ZStack{
-                Background()
-                Image("logo")
-                    .aspectRatio(contentMode: .fit)
-                    .offset(x: 0, y: -300)
-                    .padding(.bottom, -300)
-                //Social()
-                 
-                //MusicPlayer()
-            }
-        
+        ZStack{
+            Background()
+            Image("logo")
+                .aspectRatio(contentMode: .fit)
+                .offset(x: 0, y: -300)
+                .padding(.bottom, -300)
+            //Social()
+            //MusicPlayer()
+        }
     }
-    
 }
 
 struct Background: View {
