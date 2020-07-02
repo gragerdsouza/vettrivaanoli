@@ -14,7 +14,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
         //splash screen delay fro few seconds
         Thread.sleep(forTimeInterval: 3.0)
         
@@ -76,7 +75,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         
       //send tokens to backend server
     }
-    
+//     func application(_ application: UIApplication,
+//                     didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+//        let tokenParts = deviceToken.map { data -> String in
+//            return String(format: "%02.2hhx", data)
+//        }
+//
+//        let token = tokenParts.joined()
+//        print("Device Token: \(token)")
+//    }
+
     func application(
       _ application: UIApplication,
       didFailToRegisterForRemoteNotificationsWithError error: Error) {
@@ -98,6 +106,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     func application(_ application: UIApplication, didReceiveRemoteNotification data: [AnyHashable : Any]) {
         // Print notification payload data
         print("Push notification received: \(data)")
+        let aps1 = data[AnyHashable("aps")]!
+        print(aps1)
+        
+        guard
+            let aps = data[AnyHashable("aps")] as? NSDictionary,
+            let alert = aps["alert"] as? NSDictionary,
+            let body = alert["body"] as? String,
+            let title = alert["title"] as? String
+            else {
+                // handle any error here
+                return
+            }
+
+        print("Title: \(title) \nBody:\(body)")
     }
     
     @available(iOS 10.0, *)
